@@ -1,0 +1,14 @@
+Mac installation disk production
+sudo install the image icon and drag it into the terminal / Contents / Resources / createinstallmedia --volume u disk and drag it into the terminal
+Follow the operation after installation
+1. Punch any source
+sudo spctl --master-disable
+
+2. Fix 10.15 file permission issue (10.14 skip this step)
+me = `whoami`; sudo chown -R $ me ~; sudo chmod -R u + rwx ~
+
+3. Delete the additional input method (optional, you need to install PlistEdit to the application first)
+sudo open -a / Applications / PlistEdit \ Pro.app ~ / Library / Preferences / com.apple.HIToolbox.plist
+
+4. Install the ALCPlugFix daemon
+   Directory⁨ALCPlugFix⁩ ▸ ⁨alc_fix below

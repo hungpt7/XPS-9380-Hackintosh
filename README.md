@@ -1,0 +1,19 @@
+<!-- wp:heading -->
+<h2>Hardware configuration reference</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>Model: XPS13 2019 (9380)</li><li>CPU: QuadCore Intel Core i7-8565U, 4500 MHz (45 x 100)</li><li>GPU: Intel UHD Graphics 620</li><li>Memory: 8GB</li><li>Display: 1920x1080 built-in Sharp screen model is coded by DELL</li><li>SSD: SSDPEKMF512G8 NVMe INTEL 512GB (476 GB)</li><li>Wireless network card: USB Wifi Comfast CF-811AC | driver: </li><li>System: macOS 10.14.6 Mojave</li><li>BIOS: <a href="https://www.dell.com/support/home/cn/zh/cnbsd1/product-support/product/xps-13-9380-laptop/drivers">1.8.0</a> is actually the same, there is no need to upgrade, upgrade 1.8.0 can not roll back to the previous version.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2><a href="https://github.com/wdubaiyu/Hackintosh-Dell-XPS-9380/blob/master/README.md#%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"></a>System installation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you are a novice, please completely install the installation tutorial to operate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li><strong>1. Reference Documents</strong><ul><li>1. <a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/">The black fruit soldiers used for mirroring (10.14.3 ~ 10.15.x)</a></li><li>2. Install the <a href="https://github.com/wdubaiyu/Hackintosh-Dell-XPS-9380/blob/master/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/xps9380%20%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B10.15.3.docx?raw=true">installation tutorial</a> in the reference warehouse<a href="https://github.com/wdubaiyu/Hackintosh-Dell-XPS-9380/blob/master/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/xps9380%20%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B10.15.3.docx?raw=true"></a></li></ul></li><li><strong>2. important instructions &amp; BIOS settings</strong><ul><li>1. <a href="https://www.dazhuanlan.com/2019/12/15/5df650b549a64/">Lossless conversion of hard disk Raid mode to AHCI mode, refer to the link</a></li><li>2. Uncheck Secure Boot-Secure Boot Enable. Find it in the BIOS. Don't install black apples if you can't find this.</li><li>3. The second stage of the installation will report an error, please do not! ! ! Just reboot into the system;</li><li>4. Carry the EFI to the hard disk, and then execute the ALCPlugFix in the attachment</li></ul></li><li><strong>3. Known issues:</strong><ul><li>1. Siri is unavailable, and has been asking me to repeat it (maybe the language is not good, manual funny).</li><li>2. The built-in wifi killer network card cannot be used, and the 9380 cannot be changed. External! External! External!</li><li>3. The headset does not work (Jack_MIC).</li><li>4. Plug in the headset and wake it up. The headset cannot be used and needs to be unplugged once.</li></ul></li><li><strong>4. matters needing attention</strong><ul><li>The power adapter is not recognized (the battery does not display the charging symbol), plug in the power supply under the mac, and unplug it to use about 5% (in fact, it will do a little), shut down and restart. If you can't do it more than once, it will be fine</li><li>There is no mouse pointer on the screen, stick out your noble pig feet, just click on the screen. (I usually order the starter)</li><li>My hard disk INTEL 760P DELL hit the vest, other hard disks do not know whether it can be used, dsdt put a hard disk patch.</li><li>System test passed:<ul><li>1. OS X 14.4.4, 14.4.6</li><li>2. OS X 10.15.3</li></ul></li><li>After the installation is complete, you must install the sound card daemon, you can't use it without installing the headset.</li></ul></li></ul>
+<!-- /wp:list -->
